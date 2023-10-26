@@ -1,0 +1,137 @@
+.About {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.About h6 {
+  color: #f4980d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  line-height: normal;
+  align-self: flex-start;
+  margin: 20px 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 50px;
+}
+
+
+
+.About .plate {
+  width: 40%;
+  height: auto;
+}
+
+@media (max-width: 550px) {
+  .About .plate {
+    display: none;
+  }
+  .text{
+    margin: 10px;
+  }
+}
+
+.About h1 {
+  color: #4c4c4c;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.About p {
+  color: #828282;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 10px 0;
+}
+
+.About button {
+  align-self: flex-start;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 100px;
+  background: #fe9e0d;
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  border: 1px #F6F6F6 solid;
+}
+
+
+.buttons{
+  width: 100% ;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.buttons *{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+
+.btn-2{
+  margin: 0 50px ;
+}
+.btn-2 img{
+  width: 70px;
+}
+
+.About .blob  {
+  position: absolute ;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: -1;
+  left: 0;
+  top: -200px;
+}
+
+
+@media (max-width:550px) {
+  .About .blob  {
+    top: -100px;
+    opacity: .7;
+  }
+  .About p{
+    font-weight: 600;
+  }
+  .About{
+    text-align: center;
+  }
+  .buttons{
+    justify-content: center;
+  }
+}
+
+.About .blob svg  {
+  width: 60%;
+}
+
+

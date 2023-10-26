@@ -1,0 +1,104 @@
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  max-width: 1600px;
+  display: flex;
+  width: 100vw;
+  height: 89px; /* Adjusted */
+  padding: 28px 10%; /* Adjusted */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav h1 {
+  color: #fe9e0d;
+  font-family: Reem Kufi;
+  font-size: 22.5px; /* Adjusted */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav button {
+  display: inline-flex;
+  width: 109px; /* Adjusted */
+  height: 36px; /* Adjusted */
+  padding: 14px 15px; /* Adjusted */
+  justify-content: space-between;
+  align-items: center;
+  color: #373737;
+  font-family: Montserrat;
+  font-size: 10.5px; /* Adjusted */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 36px; /* Adjusted */
+  border: none;
+  background: #fff;
+}
+
+.nav .links a {
+  color: #373737;
+  font-family: Montserrat;
+  font-size: 10.5px; /* Adjusted */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav .bars {
+  width: 40px;
+  z-index: 3;
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .nav .pages,
+  .nav .icon {
+    display: none;
+  }
+  .nav .bars {
+    display: inline;
+  }
+}
+
+.nav .links .icon * {
+  width: 25px;
+}
+
+.nav .links * {
+  margin: 10px;
+}
+
+.nav .blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 650px) {
+  .nav .blob {
+    width: 50%;
+    height: 50%;
+  }
+}

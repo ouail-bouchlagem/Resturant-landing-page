@@ -1,0 +1,61 @@
+.Main {
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Main .plate {
+  width: 60%;
+}
+
+@media (max-width:550px) {
+  .Main .plate {
+    display: none;
+  }
+  .Main {
+    padding: 50px ;
+  }
+}
+
+.Main h1 {
+  color: #4c4c4c;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.Main p {
+  color: #828282;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 20px 0;
+}
+
+.Main button {
+  align-self: flex-start;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 100px;
+  background: #fe9e0d;
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: none;
+}

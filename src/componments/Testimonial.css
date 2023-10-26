@@ -1,0 +1,89 @@
+.Testimonial {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 500px;
+  text-align: center;
+  margin: 150px auto;
+}
+
+.Testimonial h6 {
+  color: #f4980d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: flex-start;
+  margin: 20px 0;
+  text-align: center;
+  margin: auto;
+}
+
+.Testimonial h1 {
+  color: #4c4c4c;
+  margin: auto;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin: 20px 0;
+}
+
+.Testimonial p {
+  color: #828282;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 10px 0;
+}
+
+.Testimonial .card {
+  display: flex;
+  max-width: 928px; /* Set your desired maximum width */
+  height: 454px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  width: calc(100% + 300px);
+}
+
+@media (max-width: 800px) {
+  .Testimonial .card {
+    width: auto;
+  }
+  .Testimonial .card .stars svg {
+    width: 50px;
+  }
+  .Testimonial .card > img {
+    width: 70px;
+  }
+}
+
+.Testimonial .card p {
+  margin: 0;
+  color: #515151;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Testimonial h2 {
+  color: #1c1c1c;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 60px;
+}
